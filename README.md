@@ -1,7 +1,7 @@
 # Create/deploy self-signed certificate for code signing #
 
 
-# Create self-signed certificates #
+## Create self-signed certificates
 
 ```
 create_self_signed_cert.bat
@@ -15,7 +15,7 @@ Check/edit:
 - `-m`: Number of months for the certificate validity period.
 - `-e`: End of validity period. Format is mm/dd/yyyy. Defaults to 2039.
 
-# Deploy certificates on a machine #
+## Deploy certificates on a machine
 
 ```
 deploy_self_signed_cert.bat
@@ -26,7 +26,7 @@ Check/edit:
 - `BIN_PATH`
 - `PASS_TXT`
 
-# Sign setup exe using the certificate #
+## Sign setup exe using the certificate
 
 ```
 SET SIGNTOOL_EXE="C:\Program Files (x86)\Windows Kits\10\bin\x64\signtool.exe"
